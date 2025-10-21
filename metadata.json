@@ -1,0 +1,7 @@
+{
+  "name": "Ava - Support Bot",
+  "description": "In-app support chatbot to guide users in navigating the app",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
