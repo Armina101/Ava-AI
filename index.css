@@ -96,28 +96,28 @@ body {
 .assistant-message p > *:first-child { margin-top: 0; }
 .assistant-message p > *:last-child { margin-bottom: 0; }
 
-.assistant-message ul, .assistant-message ol {
+.assistant-message p ul, .assistant-message p ol {
   padding-left: 20px;
   margin: 10px 0;
 }
-.assistant-message li {
+.assistant-message p li {
   margin-bottom: 5px;
 }
-.assistant-message a {
+.assistant-message p a {
   color: var(--accent-color);
   text-decoration: none;
 }
-.assistant-message a:hover {
+.assistant-message p a:hover {
   text-decoration: underline;
 }
-.assistant-message code {
+.assistant-message p code {
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
   background-color: rgba(0,0,0,0.06);
   padding: 2px 6px;
   border-radius: 4px;
   font-size: 0.9em;
 }
-.assistant-message pre {
+.assistant-message p pre {
   background-color: #2d2d2d;
   color: #f1f1f1;
   padding: 16px;
@@ -125,11 +125,11 @@ body {
   overflow-x: auto;
   margin: 12px 0;
 }
-.assistant-message pre code {
+.assistant-message p pre code {
   background-color: transparent;
   padding: 0;
 }
-.assistant-message blockquote {
+.assistant-message p blockquote {
   border-left: 3px solid var(--border-color);
   padding-left: 12px;
   margin: 12px 0;

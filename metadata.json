@@ -1,6 +1,6 @@
 {
-  "name": "Ava - Support Bot",
-  "description": "In-app support chatbot to guide users in navigating the app",
+  "name": "Logisoft AI Assistant",
+  "description": "In-app support chatbot for the Logisoft freight management platform.",
   "requestFramePermissions": [
     "microphone"
   ]
